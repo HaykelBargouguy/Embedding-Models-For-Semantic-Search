@@ -1,0 +1,393 @@
+SEMANTIC SEARCH MODEL EVALUATION RESULTS
+Date: 2025-04-04 20:08:14
+Number of documents: 15
+Number of queries: 5
+
+DATABASE ITEMS:
+1. Hospital A in London UK
+2. Medical Center B in London UK
+3. Clinic C in London UK
+4. London General Hospital
+5. Emergency Care Unit in South London
+6. Royal London Hospital
+7. London Bridge Hospital
+8. Private Healthcare Facility in Central London
+9. St Thomas' Hospital London
+10. Guy's Hospital London UK
+11. University College Hospital London
+12. Healthcare Center in North London
+13. Pediatric Hospital in London
+14. Specialist Cancer Center London UK
+15. Mental Health Facility London
+
+SAMPLE QUERIES:
+1. hospitals in london uk
+2. emergency care in london
+3. pediatric medical care london
+4. private healthcare london
+5. mental health services
+
+
+==================================================
+Model: all-MiniLM-L6-v2
+==================================================
+TIMING METRICS:
+Initialization time: 1.02 seconds
+Encoding time: 0.06 seconds
+Search time for 5 queries: 0.19 seconds
+Average search time per query: 0.0371 seconds
+
+PERFORMANCE METRICS:
+Average top result score: 0.8516
+
+SEARCH RESULTS:
+
+Query: hospitals in london uk
+  Average score: 0.8706
+  Top score: 0.9061
+  - Hospital A in London UK (Score: 0.9061)
+  - Royal London Hospital (Score: 0.8776)
+  - Pediatric Hospital in London (Score: 0.8280)
+
+Query: emergency care in london
+  Average score: 0.7796
+  Top score: 0.8815
+  - Emergency Care Unit in South London (Score: 0.8815)
+  - Hospital A in London UK (Score: 0.7342)
+  - Royal London Hospital (Score: 0.7232)
+
+Query: pediatric medical care london
+  Average score: 0.7950
+  Top score: 0.9188
+  - Pediatric Hospital in London (Score: 0.9188)
+  - Royal London Hospital (Score: 0.7375)
+  - London General Hospital (Score: 0.7287)
+
+Query: private healthcare london
+  Average score: 0.8092
+  Top score: 0.8815
+  - Private Healthcare Facility in Central London (Score: 0.8815)
+  - Royal London Hospital (Score: 0.7826)
+  - Healthcare Center in North London (Score: 0.7635)
+
+Query: mental health services
+  Average score: 0.4456
+  Top score: 0.6698
+  - Mental Health Facility London (Score: 0.6698)
+  - Emergency Care Unit in South London (Score: 0.3397)
+  - Healthcare Center in North London (Score: 0.3272)
+
+--------------------------------------------------
+
+==================================================
+Model: all-MiniLM-L12-v2
+==================================================
+TIMING METRICS:
+Initialization time: 5.81 seconds
+Encoding time: 0.03 seconds
+Search time for 5 queries: 0.12 seconds
+Average search time per query: 0.0243 seconds
+
+PERFORMANCE METRICS:
+Average top result score: 0.8439
+
+SEARCH RESULTS:
+
+Query: hospitals in london uk
+  Average score: 0.8681
+  Top score: 0.8941
+  - Royal London Hospital (Score: 0.8941)
+  - Hospital A in London UK (Score: 0.8564)
+  - London General Hospital (Score: 0.8539)
+
+Query: emergency care in london
+  Average score: 0.7493
+  Top score: 0.8758
+  - Emergency Care Unit in South London (Score: 0.8758)
+  - Royal London Hospital (Score: 0.6924)
+  - Private Healthcare Facility in Central London (Score: 0.6797)
+
+Query: pediatric medical care london
+  Average score: 0.7540
+  Top score: 0.8952
+  - Pediatric Hospital in London (Score: 0.8952)
+  - London General Hospital (Score: 0.6857)
+  - Royal London Hospital (Score: 0.6811)
+
+Query: private healthcare london
+  Average score: 0.8027
+  Top score: 0.8803
+  - Private Healthcare Facility in Central London (Score: 0.8803)
+  - Healthcare Center in North London (Score: 0.7731)
+  - Royal London Hospital (Score: 0.7546)
+
+Query: mental health services
+  Average score: 0.4677
+  Top score: 0.6741
+  - Mental Health Facility London (Score: 0.6741)
+  - Emergency Care Unit in South London (Score: 0.4024)
+  - Private Healthcare Facility in Central London (Score: 0.3265)
+
+--------------------------------------------------
+
+==================================================
+Model: sentence-transformers/all-mpnet-base-v2
+==================================================
+TIMING METRICS:
+Initialization time: 1.15 seconds
+Encoding time: 0.03 seconds
+Search time for 5 queries: 0.13 seconds
+Average search time per query: 0.0251 seconds
+
+PERFORMANCE METRICS:
+Average top result score: 0.8380
+
+SEARCH RESULTS:
+
+Query: hospitals in london uk
+  Average score: 0.8659
+  Top score: 0.8966
+  - Hospital A in London UK (Score: 0.8966)
+  - Private Healthcare Facility in Central London (Score: 0.8587)
+  - Royal London Hospital (Score: 0.8425)
+
+Query: emergency care in london
+  Average score: 0.7510
+  Top score: 0.8680
+  - Emergency Care Unit in South London (Score: 0.8680)
+  - Private Healthcare Facility in Central London (Score: 0.7126)
+  - Healthcare Center in North London (Score: 0.6725)
+
+Query: pediatric medical care london
+  Average score: 0.7583
+  Top score: 0.8892
+  - Pediatric Hospital in London (Score: 0.8892)
+  - London General Hospital (Score: 0.6964)
+  - Royal London Hospital (Score: 0.6893)
+
+Query: private healthcare london
+  Average score: 0.8060
+  Top score: 0.8750
+  - Private Healthcare Facility in Central London (Score: 0.8750)
+  - Healthcare Center in North London (Score: 0.7969)
+  - Hospital A in London UK (Score: 0.7461)
+
+Query: mental health services
+  Average score: 0.5199
+  Top score: 0.6610
+  - Mental Health Facility London (Score: 0.6610)
+  - Emergency Care Unit in South London (Score: 0.4829)
+  - Healthcare Center in North London (Score: 0.4158)
+
+--------------------------------------------------
+
+==================================================
+Model: BAAI/bge-base-en-v1.5
+==================================================
+TIMING METRICS:
+Initialization time: 17.13 seconds
+Encoding time: 0.03 seconds
+Search time for 5 queries: 0.14 seconds
+Average search time per query: 0.0275 seconds
+
+PERFORMANCE METRICS:
+Average top result score: 0.8659
+
+SEARCH RESULTS:
+
+Query: hospitals in london uk
+  Average score: 0.8512
+  Top score: 0.8824
+  - Hospital A in London UK (Score: 0.8824)
+  - Royal London Hospital (Score: 0.8395)
+  - London General Hospital (Score: 0.8316)
+
+Query: emergency care in london
+  Average score: 0.7927
+  Top score: 0.8835
+  - Emergency Care Unit in South London (Score: 0.8835)
+  - Hospital A in London UK (Score: 0.7628)
+  - Pediatric Hospital in London (Score: 0.7318)
+
+Query: pediatric medical care london
+  Average score: 0.7956
+  Top score: 0.9082
+  - Pediatric Hospital in London (Score: 0.9082)
+  - Medical Center B in London UK (Score: 0.7447)
+  - Clinic C in London UK (Score: 0.7340)
+
+Query: private healthcare london
+  Average score: 0.8096
+  Top score: 0.9120
+  - Private Healthcare Facility in Central London (Score: 0.9120)
+  - Healthcare Center in North London (Score: 0.7659)
+  - Hospital A in London UK (Score: 0.7508)
+
+Query: mental health services
+  Average score: 0.6403
+  Top score: 0.7435
+  - Mental Health Facility London (Score: 0.7435)
+  - Private Healthcare Facility in Central London (Score: 0.5936)
+  - Healthcare Center in North London (Score: 0.5837)
+
+--------------------------------------------------
+
+==================================================
+Model: intfloat/e5-large-v2
+==================================================
+TIMING METRICS:
+Initialization time: 25.35 seconds
+Encoding time: 0.06 seconds
+Search time for 5 queries: 0.17 seconds
+Average search time per query: 0.0347 seconds
+
+PERFORMANCE METRICS:
+Average top result score: 0.9178
+
+SEARCH RESULTS:
+
+Query: hospitals in london uk
+  Average score: 0.9100
+  Top score: 0.9320
+  - Hospital A in London UK (Score: 0.9320)
+  - Pediatric Hospital in London (Score: 0.9057)
+  - Medical Center B in London UK (Score: 0.8921)
+
+Query: emergency care in london
+  Average score: 0.8951
+  Top score: 0.9245
+  - Emergency Care Unit in South London (Score: 0.9245)
+  - Healthcare Center in North London (Score: 0.8807)
+  - Medical Center B in London UK (Score: 0.8802)
+
+Query: pediatric medical care london
+  Average score: 0.8976
+  Top score: 0.9486
+  - Pediatric Hospital in London (Score: 0.9486)
+  - Medical Center B in London UK (Score: 0.8810)
+  - Specialist Cancer Center London UK (Score: 0.8630)
+
+Query: private healthcare london
+  Average score: 0.8938
+  Top score: 0.9361
+  - Private Healthcare Facility in Central London (Score: 0.9361)
+  - Pediatric Hospital in London (Score: 0.8729)
+  - Healthcare Center in North London (Score: 0.8722)
+
+Query: mental health services
+  Average score: 0.7996
+  Top score: 0.8479
+  - Mental Health Facility London (Score: 0.8479)
+  - Healthcare Center in North London (Score: 0.7820)
+  - Royal London Hospital (Score: 0.7688)
+
+--------------------------------------------------
+
+==================================================
+Model: thenlper/gte-base
+==================================================
+TIMING METRICS:
+Initialization time: 4.27 seconds
+Encoding time: 0.03 seconds
+Search time for 5 queries: 0.13 seconds
+Average search time per query: 0.0261 seconds
+
+PERFORMANCE METRICS:
+Average top result score: 0.9328
+
+SEARCH RESULTS:
+
+Query: hospitals in london uk
+  Average score: 0.9383
+  Top score: 0.9570
+  - Hospital A in London UK (Score: 0.9570)
+  - London General Hospital (Score: 0.9292)
+  - Royal London Hospital (Score: 0.9288)
+
+Query: emergency care in london
+  Average score: 0.9058
+  Top score: 0.9359
+  - Emergency Care Unit in South London (Score: 0.9359)
+  - Hospital A in London UK (Score: 0.8970)
+  - London General Hospital (Score: 0.8843)
+
+Query: pediatric medical care london
+  Average score: 0.9016
+  Top score: 0.9542
+  - Pediatric Hospital in London (Score: 0.9542)
+  - Medical Center B in London UK (Score: 0.8756)
+  - Royal London Hospital (Score: 0.8749)
+
+Query: private healthcare london
+  Average score: 0.9136
+  Top score: 0.9513
+  - Private Healthcare Facility in Central London (Score: 0.9513)
+  - Healthcare Center in North London (Score: 0.8948)
+  - Hospital A in London UK (Score: 0.8947)
+
+Query: mental health services
+  Average score: 0.8053
+  Top score: 0.8655
+  - Mental Health Facility London (Score: 0.8655)
+  - Private Healthcare Facility in Central London (Score: 0.7776)
+  - Healthcare Center in North London (Score: 0.7727)
+
+--------------------------------------------------
+
+==================================================
+Model: hkunlp/instructor-xl
+==================================================
+TIMING METRICS:
+Initialization time: 4.16 seconds
+Encoding time: 0.16 seconds
+Search time for 5 queries: 0.28 seconds
+Average search time per query: 0.0567 seconds
+
+PERFORMANCE METRICS:
+Average top result score: 0.8838
+
+SEARCH RESULTS:
+
+Query: hospitals in london uk
+  Average score: 0.8868
+  Top score: 0.9039
+  - Hospital A in London UK (Score: 0.9039)
+  - Pediatric Hospital in London (Score: 0.8796)
+  - Royal London Hospital (Score: 0.8769)
+
+Query: emergency care in london
+  Average score: 0.8535
+  Top score: 0.9090
+  - Emergency Care Unit in South London (Score: 0.9090)
+  - Hospital A in London UK (Score: 0.8380)
+  - Healthcare Center in North London (Score: 0.8133)
+
+Query: pediatric medical care london
+  Average score: 0.8548
+  Top score: 0.9321
+  - Pediatric Hospital in London (Score: 0.9321)
+  - Healthcare Center in North London (Score: 0.8202)
+  - Medical Center B in London UK (Score: 0.8122)
+
+Query: private healthcare london
+  Average score: 0.8570
+  Top score: 0.9359
+  - Private Healthcare Facility in Central London (Score: 0.9359)
+  - Healthcare Center in North London (Score: 0.8246)
+  - Hospital A in London UK (Score: 0.8106)
+
+Query: mental health services
+  Average score: 0.6614
+  Top score: 0.7380
+  - Mental Health Facility London (Score: 0.7380)
+  - Healthcare Center in North London (Score: 0.6336)
+  - Private Healthcare Facility in Central London (Score: 0.6125)
+
+--------------------------------------------------
+
+==================================================
+SUMMARY
+==================================================
+Total models evaluated: 7
+Successful evaluations: 7
+Failed evaluations: 0
